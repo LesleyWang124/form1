@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hello HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" href="./index.css"/>
+  </head>
+  <body>
+    <div class="logo">
+      <h2>开黑</h2>
+      <h3>HackerStart.cn</h3>
+      <div class="sign_in">
+        <h2>开黑</h2>
+        <h3>HackerStart.cn</h3>
+        <div class="s_ways">
+            <ul>
+                <li class="code_S"><a href="#code_S">验证码登录</a></li>
+                <li class="password_S"><a href="#password_S">密码登录</a></li>
+            </ul>
+        </div>
+          <form>
+              <fieldset class="E">
+                  <input 
+                  type="email" 
+                  name="email" 
+                  class="email_out" 
+                  onmousemove="this.className='email_move'" 
+                  onmouseout="this.className='email_out'" 
+                  placeholder="邮箱" 
+                  maxlength="30"
+                  required
+                  />
+              </fieldset>
+              <fieldset class="pas">
+                <div class="div_pas">
+                  <input
+                  type="password"
+                  name="password"
+                  class="pas_move" 
+                  onmousemove="this.className='pas_move'" 
+                  onmouseout="this.className='pas_out'"
+                  placeholder="密码"
+                  maxlength="18"
+                  required
+                  />
+                </div>
+                <div class="forget_pas">
+                    <p>忘记密码</p>
+                  </div>
+                <div class="Sign_In">
+                  <input 
+                  type="button"
+                  name="R_HackerStart"
+                  class="Sign_in"
+                  value="登录"
+                  />
+                </div>
+                <div class="register_user">
+                  <p>注册用户</p>
+                </div>
+              </fieldset>
+          </form>
+    </div>
+  </div>
+  </body>
+</html>
